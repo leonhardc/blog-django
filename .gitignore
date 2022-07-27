@@ -14,7 +14,7 @@ blog/__pycache__/
 
 publicacoes/templatetags/__pycache__/
 
-virtual-env/
+venv/
 db.sqlite3
 
 
