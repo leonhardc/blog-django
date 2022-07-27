@@ -1,0 +1,24 @@
+# Projeto Blog - diretórios ignorados
+
+categorias/__pycache__/
+categorias/migrations/
+
+comentarios/__pycache__/
+comentarios/migrations/
+
+publicacoes/__pycache__/
+publicacoes/migrations/
+
+.idea/
+blog/__pycache__/
+
+publicacoes/templatetags/__pycache__/
+
+virtual-env/
+db.sqlite3
+
+
+# Projeto Blog - arquivos ignorados
+super_usuario.txt
+
+### ------------------------------------------------------------ ###
