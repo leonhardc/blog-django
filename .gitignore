@@ -1,24 +1,26 @@
-# Projeto Blog - diretórios ignorados
+# Diretórios ignorados
+.idea/
 
-categorias/__pycache__/
-categorias/migrations/
+blog/__pycache__/
+virtual-env/
 
-comentarios/__pycache__/
-comentarios/migrations/
-
+# app publicacoes
 publicacoes/__pycache__/
 publicacoes/migrations/
-
-.idea/
-blog/__pycache__/
-
 publicacoes/templatetags/__pycache__/
 
-venv/
+# super user login and password
+super_usuario.txt
+
+# database
 db.sqlite3
 
 
-# Projeto Blog - arquivos ignorados
-super_usuario.txt
+# App Categorias
+categorias/__pycache__/
+categorias/migrations/
 
-### ------------------------------------------------------------ ###
+# App Comentários
+comentarios/__pycache__/
+comentarios/migrations/
+
