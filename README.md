@@ -5,7 +5,15 @@
 Olá a todos, este repostório é resultado de estudos em python e um de seus frameworks para desenvolvimento web, o django. Este projeto foi desenvolvido em conjunto com o curso [Curso de Python 3 do Básico Ao Avançado](https://www.udemy.com/course/python-3-do-zero-ao-avancado/) na plataforma Udemy. 
 Abaixo veremos um pouco do que é esse projeto e algumas dicas de como baixar e instalar o que é preciso para rodar ele na sua máquina.
 
-
+- [**Blog**](#blog)
+  - [**Técnologias Usadas Neste Projeto**](#técnologias-usadas-neste-projeto)
+  - [**Baixando e Rodando Este Projeto**](#baixando-e-rodando-este-projeto)
+    - [**Clonando este repositório**](#clonando-este-repositório)
+    - [**Instalando um Ambiente Virtual**](#instalando-um-ambiente-virtual)
+    - [**Instalando as Dependências do projeto**](#instalando-as-dependências-do-projeto)
+    - [**Fazendo as migrações**](#fazendo-as-migrações)
+    - [**Criando um Super Usuário para o site**](#criando-um-super-usuário-para-o-site)
+    - [**Rodando a aplicação**](#rodando-a-aplicação)
 
 ## **Técnologias Usadas Neste Projeto** 
 
