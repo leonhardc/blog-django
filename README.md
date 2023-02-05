@@ -1,6 +1,6 @@
 # **Blog**
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
 Olá a todos, este repostório é resultado de estudos em python e um de seus frameworks para desenvolvimento web, o django. Este projeto foi desenvolvido em conjunto com o curso [Curso de Python 3 do Básico Ao Avançado](https://www.udemy.com/course/python-3-do-zero-ao-avancado/) na plataforma Udemy. 
 Abaixo veremos um pouco do que é esse projeto e algumas dicas de como baixar e instalar o que é preciso para rodar ele na sua máquina.
