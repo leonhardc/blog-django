@@ -1,8 +1,8 @@
 # Diretórios ignorados
 .idea/
 
-blog/__pycache__/
 virtual-env/
+blog/__pycache__/
 
 # app publicacoes
 publicacoes/__pycache__/
