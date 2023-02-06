@@ -14,6 +14,9 @@ Abaixo veremos um pouco do que é esse projeto e algumas dicas de como baixar e 
     - [**Fazendo as migrações**](#fazendo-as-migrações)
     - [**Criando um Super Usuário para o site**](#criando-um-super-usuário-para-o-site)
     - [**Rodando a aplicação**](#rodando-a-aplicação)
+  - [**Primeiros Passos**](#primeiros-passos)
+    - [**Estrutura do Projeto**](#estrutura-do-projeto)
+    - [**Primeiras Impressões**](#primeiras-impressões)
 
 ## **Técnologias Usadas Neste Projeto** 
 
@@ -117,3 +120,54 @@ Se tudo foi configurado da maneira correta você verá a seguinte mensagem no se
     Quit the server with CTRL-BREAK.
 ```
 A partir deste momento você poderá acessar a aplicação digitadno o endereço `http://127.0.0.1:8000/` na barra de endereços do seu navegador.
+
+## **Primeiros Passos**
+
+### **Estrutura do Projeto**
+
+A arvore de diretórios do nosso projeto é a seguinte:
+
+```
+    blog-django/
+        blog/
+        categorias/
+        comentarios/
+        media/
+            post_img/...
+        publicacoes/
+            templates/
+            templatetags/
+        templates/
+            parciais/
+            static/
+                vendor/
+                    bootstrap/
+                        css/
+                        js/
+                    jquery/
+```
+
+* **blog/**: Este é o diretório do app principal da nossa aplicação. Nele estão descritas as principais regras e configurações gerais da nossa aplicação. 
+* **categorias/**: Este app implementa a ideia de categorias de publicações. 
+* **comentarios/**: Neste app estão implementadas as regras para estrutura e armazenamento dos comentários que podem ficar em cada publicação.
+* **media/**: Arquivos de media que normalmente ilustram uma publicação.
+* **publicacoes/**: É este app que dá a cara da nossa aplicação, é aqui onde é implementado as regras de atuação do blog para mostrar todas as publicações cadastradas, todas as publicações listadas por categoria e os detalhes de cada publicação.
+* **templates/**: Diretório que guarda os principais templates que serão carregados na nossa aplicação e onde ficam os arquivos estáticos css e javascript.
+
+### **Primeiras Impressões**
+
+O que provavelmente vai acontecer quando você abrir a aplicação no seu navegador ela não vai ter nada além de uma página em branco. Isso acontece porque seu banco de dados ainda está vazio, ainda não existem publicações para serem mostradas. 
+
+O que vamos fazer agora é aprender a inserir publicações no seu blog por meio da seção administrativa do site.
+
+Primeiramente, devemos acessas a zona administrativa do site pela url `http://127.0.0.1:8000/admin/`. Lembra daquele usuário e senha que voce configurou na seção [Criando um Super Usuário para o site](#criando-um-super-usuário-para-o-site)? Pois é, iremos usá-lo nesse momento. Acesse a zona administrativa com seu usuário e sua senha.
+
+Abaixo você pode ver a ilustração de como é a área administrativa padrão do django
+
+![Area administrativa Django](./img/admarea.png)
+
+Na parte superior direita do site podemos ver algumas informações de login do usuário e um link para a página inicial do app. No lado esquerdo da página podemos ver basicamente uma serie de grupos como **categorias**, **comentários** e **publicações**, por exemplo, que são locais onde podemos gerenciar os dados contidos na base de dados. Já os grupos **Autenticação e autorização** e **django summernote** são grupos de funcionalidades implementadas pelo próprio django, onde o primeiro trata dos usuários cadastrados no nosso site.
+
+Podemos adicionar publicações, comentários e categorias pela zona administrativa.
+
+
