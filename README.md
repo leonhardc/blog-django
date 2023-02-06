@@ -166,7 +166,7 @@ Primeiramente, devemos acessas a zona administrativa do site pela url `http://12
 Abaixo você pode ver a ilustração de como é a área administrativa padrão do django
 
 <div>
-    <img src="./img/admarea.png" style="width: 100%; border-radius: 10px;">
+    <img src="./img/admarea.png" width="100%">
 </div>
 
 Na parte superior direita do site podemos ver algumas informações de login do usuário e um link para a página inicial do app. No lado esquerdo da página podemos ver basicamente uma serie de grupos como **categorias**, **comentários** e **publicações**, por exemplo, que são locais onde podemos gerenciar os dados contidos na base de dados. Já os grupos **Autenticação e autorização** e **django summernote** são grupos de funcionalidades implementadas pelo próprio django, onde o primeiro trata dos usuários cadastrados no nosso site.
