@@ -17,6 +17,7 @@ Abaixo veremos um pouco do que é esse projeto e algumas dicas de como baixar e 
   - [**Primeiros Passos**](#primeiros-passos)
     - [**Estrutura do Projeto**](#estrutura-do-projeto)
     - [**Primeiras Impressões**](#primeiras-impressões)
+      - [**Página Inicial**](#página-inicial)
 
 ## **Técnologias Usadas Neste Projeto** 
 
@@ -168,6 +169,17 @@ Abaixo você pode ver a ilustração de como é a área administrativa padrão d
 
 Na parte superior direita do site podemos ver algumas informações de login do usuário e um link para a página inicial do app. No lado esquerdo da página podemos ver basicamente uma serie de grupos como **categorias**, **comentários** e **publicações**, por exemplo, que são locais onde podemos gerenciar os dados contidos na base de dados. Já os grupos **Autenticação e autorização** e **django summernote** são grupos de funcionalidades implementadas pelo próprio django, onde o primeiro trata dos usuários cadastrados no nosso site.
 
-Podemos adicionar publicações, comentários e categorias pela zona administrativa.
+Podemos adicionar publicações, comentários e categorias pela zona administrativa. Experimente adicionar algumas publicações e brincar um pouco. Sinta-se a vontade para testar o funcionamento da aplicação.
+
+#### **Página Inicial**
+
+Você pode notar na parte direita superior na zona administrativa do site que existe um link para a página inicial do site. Depois de adicionar algumas publicações vá até a página inicial do blog e veja como ficou, provavelmente ficou parecido com:
+
+![Pagina inicial do site](./img/paginicial.png)
+
+Abaixo segue um pequeno demostrativo da navegação na página do nosso blogue
+
+
+![Demonstrativo da página Inicial](img/blog-gif.gif)
 
 
