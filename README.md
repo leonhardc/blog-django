@@ -178,7 +178,7 @@ Podemos adicionar publicações, comentários e categorias pela zona administrat
 Você pode notar que na parte superior direita da zona administrativa existe um link para a página inicial do site. Depois de adicionar algumas publicações vá até a página inicial do blog e veja como ficou, provavelmente ficou parecido com o exemplo abaixo.
 
 <div>
-    <kbd width="100%"> <img src="./img/blog-gif.gif" width="100%"> </kbd>
+    <img src="./img/blog-gif.gif" width="100%">
 </div>
 
 
